@@ -11,11 +11,13 @@ public class Fire : MonoBehaviour
     [SerializeField] private GameObject bulletprefab;
     [SerializeField] private float bulletForce = 20f;
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private AudioSource audioSource;
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            audioSource.Play();
             animator.SetTrigger("Fire");
             Shoot();
         }

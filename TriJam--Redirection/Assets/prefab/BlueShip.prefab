@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1804153665852295383}
   m_Layer: 0
   m_Name: BlueShip
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,6 +166,7 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 5
   rotationSpeed: 5
+  rb: {fileID: 0}
 --- !u!95 &5752248581242821396
 Animator:
   serializedVersion: 5

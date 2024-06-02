@@ -14,12 +14,12 @@ public class Spawner : MonoBehaviour
     private void Start()
     {
        
-        InvokeRepeating("SpawnEnemy", 0, spawnRate);
+        InvokeRepeating("SpawnEnemy", 6, spawnRate);
     }
 
     private void Update()
     {
-       if (Input.GetKeyDown(KeyCode.B))
+       if (Time.deltaTime > 120f)
        {
            spawnRate /= 2;
        }
