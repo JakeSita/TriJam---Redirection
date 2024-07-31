@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -7357934663072618570}
   - component: {fileID: 8408806002513839229}
   - component: {fileID: -3445522022131882281}
+  - component: {fileID: -821839279266879767}
   m_Layer: 0
   m_Name: BlueDual
   m_TagString: Enemy
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5230800635771429202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5858a7c106379c848addc1301c6b9262, type: 3}
   m_Name: 
@@ -298,3 +299,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-821839279266879767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230800635771429202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  rotationSpeed: 5
+  _stats: {fileID: 11400000, guid: 6b0a7301d16970f4c8392cc47cc7e90c, type: 2}

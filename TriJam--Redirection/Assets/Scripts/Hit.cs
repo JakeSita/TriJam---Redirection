@@ -26,11 +26,18 @@ public class Hit : MonoBehaviour
             circleCollider2D.enabled = false;
             audioSource.Play();
             StaticGameManager.score(10);
-        }
             anime.SetTrigger("Dead");
             rb.bodyType = RigidbodyType2D.Static;
             Destroy(this.gameObject, .8f);
-            
-        
+        }
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            anime.SetTrigger("Dead");
+            rb.bodyType = RigidbodyType2D.Static;
+            Destroy(this.gameObject, .8f);
+        }
+
+
     }
 }
