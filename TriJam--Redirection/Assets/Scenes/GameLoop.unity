@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &31881212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,9 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 5230800635771429202, guid: d830770ab0e3a774eb4f2be7860c9814, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &31881213
 Transform:
   m_ObjectHideFlags: 0
@@ -928,7 +927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &553152060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,9 +940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 6405662591778590451, guid: 47a331063a2d77e448d65022225e4169, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &553152061
 Transform:
   m_ObjectHideFlags: 0
@@ -1189,6 +1187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631173092}
   - component: {fileID: 631173091}
+  - component: {fileID: 631173093}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -1208,9 +1207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 8917394703440104436, guid: 16296d306fb48784aa015d8183d18727, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &631173092
 Transform:
   m_ObjectHideFlags: 0
@@ -1226,6 +1224,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 859104983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &631173093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631173090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbf5cfe46044199a03512b698bd6f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemy: {fileID: 5230800635771429202, guid: d830770ab0e3a774eb4f2be7860c9814, type: 3}
 --- !u!1 &633536172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &633536173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1255,9 +1266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 4808734892149411163, guid: 266bb60d79fddb643af28adc5903e213, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &633536174
 Transform:
   m_ObjectHideFlags: 0
@@ -1366,7 +1376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &657920491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,9 +1389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 4808734892149411163, guid: 266bb60d79fddb643af28adc5903e213, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &657920492
 Transform:
   m_ObjectHideFlags: 0
@@ -1413,7 +1422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &795030866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1426,9 +1435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 6778267940885735032, guid: 7e2f74cc5201c854e8aabf84b20032c9, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &795030867
 Transform:
   m_ObjectHideFlags: 0
@@ -1845,7 +1853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &866676774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,9 +1866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 6778267940885735032, guid: 7e2f74cc5201c854e8aabf84b20032c9, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &866676775
 Transform:
   m_ObjectHideFlags: 0
@@ -2035,7 +2042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1110912490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2048,9 +2055,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 6405662591778590451, guid: 47a331063a2d77e448d65022225e4169, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &1110912491
 Transform:
   m_ObjectHideFlags: 0
@@ -2425,7 +2431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1383238794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2438,9 +2444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 5230800635771429202, guid: d830770ab0e3a774eb4f2be7860c9814, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &1383238795
 Transform:
   m_ObjectHideFlags: 0
@@ -2841,7 +2846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1662136452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2854,9 +2859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036aaf76f015cb542a84d30618ff6992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab:
-  - {fileID: 4808734892149411163, guid: 266bb60d79fddb643af28adc5903e213, type: 3}
   spawnRate: 5
+  BlueFactory: {fileID: 0}
 --- !u!4 &1662136453
 Transform:
   m_ObjectHideFlags: 0

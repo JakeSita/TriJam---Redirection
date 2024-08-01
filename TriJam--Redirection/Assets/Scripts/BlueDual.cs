@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
+using Update = Unity.VisualScripting.Update;
 
 namespace DefaultNamespace
 {
@@ -18,9 +20,10 @@ namespace DefaultNamespace
             base.Initalize();
             speed = _stats.ScriptStats.Speed;
             gameObject.name = _stats.ScriptStats.Name;
-            Update();
+            
         }
-
+        
+        
     }
 
 }

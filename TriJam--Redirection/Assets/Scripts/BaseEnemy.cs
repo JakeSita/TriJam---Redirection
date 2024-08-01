@@ -18,7 +18,7 @@ namespace DefaultNamespace
             rb = GetComponent<Rigidbody2D>();
         }
         
-        public void Update()
+        public virtual void Update()
         {
             if (player != null && rb != null)
             {
