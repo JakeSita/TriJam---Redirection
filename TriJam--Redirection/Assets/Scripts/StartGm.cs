@@ -19,6 +19,11 @@ public class  StartGm : MonoBehaviour
     {
         Application.Quit();
     }
+    
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
 
     public void MainMenu()
     {

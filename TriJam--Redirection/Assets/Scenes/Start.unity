@@ -180,7 +180,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: 'Settings
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b611035364dfb0241a660f105ad2dfb0, type: 2}
   m_sharedMaterial: {fileID: -4535408071176483592, guid: b611035364dfb0241a660f105ad2dfb0, type: 2}
@@ -341,8 +343,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 125
-  m_fontSizeBase: 125
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -755,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &725387087
 RectTransform:
   m_ObjectHideFlags: 0
@@ -773,8 +775,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 52}
-  m_SizeDelta: {x: 308.1797, y: 44.588104}
+  m_AnchoredPosition: {x: 51.945, y: 48}
+  m_SizeDelta: {x: 638.08, y: 140.8432}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &725387088
 MonoBehaviour:
@@ -822,7 +824,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1299257579}
         m_TargetAssemblyTypeName: StartGm, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: Settings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -954,8 +956,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1038,8 +1040,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -130.5}
-  m_SizeDelta: {x: 423.39, y: 361}
+  m_AnchoredPosition: {x: 0, y: -31.0363}
+  m_SizeDelta: {x: 692.9044, y: 679.7115}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1043329459
 MonoBehaviour:
@@ -1366,8 +1368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 70}
-  m_SizeDelta: {x: 378.3289, y: 121.78}
+  m_AnchoredPosition: {x: 44.91913, y: 325}
+  m_SizeDelta: {x: 652.1215, y: 245.8422}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1598790400
 MonoBehaviour:
