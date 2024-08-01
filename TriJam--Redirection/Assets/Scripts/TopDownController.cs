@@ -30,8 +30,6 @@ public class TopDownController : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 lookDir = mouseposition - rb.position;
-        
-        
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
     }

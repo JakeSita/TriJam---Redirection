@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class TimeSlowdown : MonoBehaviour
 {
+    [Header("Slowdown Settings")]
     public float slowdownFactor = 0.5f; // Factor by which time will be slowed down
     public float slowdownDuration = 2f; // Duration of the slowdown in seconds
     public float cooldownDuration = 5f; // Duration of the cooldown in seconds
-    public GameObject greenClock;
-    public GameObject redClock;
+    [SerializeField]private  GameObject greenClock;
+    [SerializeField]private GameObject redClock;
 
     private bool isSlowingDown = false;
     private bool isCooldown = false;

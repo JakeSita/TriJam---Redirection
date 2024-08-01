@@ -7,32 +7,47 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    
-    //public GameObject[] enemyPrefab;
-    public float spawnRate = 5f;
-    
-    public BlueFactory BlueFactory;
-    // Update is called once per frame
+    [Header("SpawnRate Settings")] 
+    public float initialSpawnRate = 2.0f;
+    public float timeToDecreaseSpawnRate = 5.0f;
+    public float spawnRateDecreaseAmount = 0.1f;
+    public float minSpawnRate = 0.5f;
+    [Header("enemy Speed Up Settings")]
+    public float SpeedUpAmount = 2.0f;
+    public float speedUpRate = 0.5f;
+    public float SpeedUpMultiplier = 1f;
+    private BlueFactory BlueFactory;
+
     private void Start()
     {
         BlueFactory = GetComponent<BlueFactory>();
-        InvokeRepeating("SpawnEnemy", 6, spawnRate);
+        StartCoroutine(SpawnObjects());
+        StartCoroutine(DecreaseSpawnRate());
     }
 
-    private void Update()
+    IEnumerator SpawnObjects()
     {
-       if (Time.deltaTime > 120f)
-       {
-           spawnRate /= 2;
-       }
-        
+        while (true)
+        {
+            yield return new WaitForSeconds(initialSpawnRate);
+            IEnemy enemy = BlueFactory.GetEnemy();
+            if (initialSpawnRate < speedUpRate)
+            {
+                enemy.SetSpeed(SpeedUpAmount * SpeedUpMultiplier);
+            }
+
+        }
+    }
+    
+    
+    IEnumerator DecreaseSpawnRate()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(timeToDecreaseSpawnRate);
+            if(initialSpawnRate > minSpawnRate)
+                initialSpawnRate -= spawnRateDecreaseAmount;
+        }
     }
 
-    public void SpawnEnemy()
-    {
-        BlueFactory.GetEnemy();
-       // int randomIndex = Random.Range(0, enemyPrefab.Length);
-        //Instantiate(enemyPrefab[randomIndex], transform.position, Quaternion.identity);
-    }
 }

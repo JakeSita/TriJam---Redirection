@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3807885007650201273}
   - component: {fileID: 4012180810625163824}
   - component: {fileID: 7008808593718338447}
-  - component: {fileID: 6424498083039591872}
   - component: {fileID: 5601924645436257540}
   - component: {fileID: 2106772952548041278}
   - component: {fileID: -3124466089500409364}
+  - component: {fileID: 5740151786465047469}
   m_Layer: 0
   m_Name: RedBlades
   m_TagString: Enemy
@@ -152,22 +152,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.09044254}
   serializedVersion: 2
   m_Radius: 1.2027158
---- !u!114 &6424498083039591872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8917394703440104436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5858a7c106379c848addc1301c6b9262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 5
-  rotationSpeed: 5
-  rb: {fileID: 0}
 --- !u!95 &5601924645436257540
 Animator:
   serializedVersion: 5
@@ -298,3 +282,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5740151786465047469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8917394703440104436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stats: {fileID: 11400000, guid: 8534e85394b1c324aa2832734082ec8a, type: 2}

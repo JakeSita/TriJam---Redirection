@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: BlueDual
   m_EditorClassIdentifier: 
   ScriptStats:
-    Name: 
+    Name: BlueDual
     Health: 0
     Damage: 0
-    Speed: 0
+    Speed: 8
+    SpeedMultiplier: 1
