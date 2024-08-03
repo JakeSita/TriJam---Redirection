@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2597566686208195135}
   - component: {fileID: -8050074469290746198}
   - component: {fileID: 3253154136565572092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RedDual
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -294,4 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stats: {fileID: 11400000, guid: fa061377edd99504dae9532a4268fc88, type: 2}
+  speed: 6
+  _multiplier: 1.5
+  Name: RedDual
+  _Speed: 7
+  _Multiplier: 1

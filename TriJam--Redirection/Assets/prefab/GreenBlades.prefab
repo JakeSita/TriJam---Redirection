@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1096305901709613388}
   - component: {fileID: 8037445511244944638}
   - component: {fileID: -3556582968059229999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GreenBlades
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -294,4 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stats: {fileID: 11400000, guid: 1b8fe3b0a6ad1fe458a8df677602fb1b, type: 2}
+  speed: 5
+  _multiplier: 2
+  Name: BlueBlade
+  _Speed: 5
+  _Multiplier: 1.2

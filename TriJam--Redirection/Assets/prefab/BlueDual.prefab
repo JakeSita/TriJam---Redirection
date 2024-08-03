@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8408806002513839229}
   - component: {fileID: -3445522022131882281}
   - component: {fileID: -821839279266879767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueDual
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -294,4 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stats: {fileID: 11400000, guid: 6b0a7301d16970f4c8392cc47cc7e90c, type: 2}
+  speed: 5
+  _multiplier: 1
+  Name: BlueDual
+  _Speed: 5
+  _Multiplier: 1

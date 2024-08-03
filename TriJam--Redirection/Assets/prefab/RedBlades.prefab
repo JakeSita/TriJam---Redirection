@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2106772952548041278}
   - component: {fileID: -3124466089500409364}
   - component: {fileID: 5740151786465047469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RedBlades
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -294,4 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bbf0b65e484935851a39e90be389a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stats: {fileID: 11400000, guid: 8534e85394b1c324aa2832734082ec8a, type: 2}
+  speed: 5
+  _multiplier: 1.7
+  Name: RedBlade
+  _Speed: 5
+  _Multiplier: 1.6
