@@ -38,6 +38,7 @@ namespace DefaultNamespace
 
             if (other.gameObject.CompareTag("Player"))
             {
+                circleCollider2D.enabled = false;
                 anime.SetTrigger("Dead");
                 rb.bodyType = RigidbodyType2D.Static;
                 Destroy(this.gameObject, .8f);

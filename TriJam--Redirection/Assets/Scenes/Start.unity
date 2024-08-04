@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 558022697}
   m_Layer: 0
   m_Name: Music Player
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -843,8 +843,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 14.1773, y: -30.362}
+  m_AnchoredPosition: {x: 3.9014, y: 0}
+  m_SizeDelta: {x: 21.9802, y: -30.362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807712337
 MonoBehaviour:
@@ -991,11 +991,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1145471817}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -31.0363}
-  m_SizeDelta: {x: 692.9044, y: 679.7115}
-  m_Pivot: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 766.4567, y: 774.5388}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1043329459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -99597426, guid: c50b869a3deac004ba7524da174762af, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1082,12 +1082,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1268,6 +1268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1459561345}
   - component: {fileID: 1459561346}
+  - component: {fileID: 1459561347}
   m_Layer: 5
   m_Name: Music Settings
   m_TagString: Untagged
@@ -1295,8 +1296,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -103, y: -0}
-  m_SizeDelta: {x: 347.09998, y: 57.2837}
+  m_AnchoredPosition: {x: 0, y: -6.3398}
+  m_SizeDelta: {x: 547.8514, y: 102.5464}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1459561346
 MonoBehaviour:
@@ -1348,19 +1349,19 @@ MonoBehaviour:
   m_Value: 0.596
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 558022698}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: set_volume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &1459561347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459561344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2954a09ac0e143b42a25483dfbc0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497634581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,8 +1500,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 44.91913, y: 325}
-  m_SizeDelta: {x: 652.1215, y: 245.8422}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 757.925, y: 332.7672}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1598790400
 MonoBehaviour:
@@ -1630,8 +1631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: 41}
-  m_SizeDelta: {x: 368.6861, y: 50}
+  m_AnchoredPosition: {x: -2.499298, y: 67.204}
+  m_SizeDelta: {x: 522.85, y: 83.134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036992900
 MonoBehaviour:
@@ -1680,8 +1681,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
